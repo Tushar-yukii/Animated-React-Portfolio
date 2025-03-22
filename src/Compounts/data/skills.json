@@ -1,0 +1,27 @@
+[
+  {
+    "id":1,
+    "title": "HTML",
+    "imageSrc": "skills/html.png"
+  },
+  {
+    "id":2,
+    "title": "CSS",
+    "imageSrc": "skills/css.png"
+  },
+  {
+    "id":3,
+    "title": "JavaScript",
+    "imageSrc": "skills/javascript.png"
+  },
+  {
+    "id":4,
+    "title": "React",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "id":5,
+    "title": "Node",
+    "imageSrc": "skills/node.png"
+  }
+]
