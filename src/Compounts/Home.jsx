@@ -5,18 +5,13 @@ const Home = () => {
     <>
       <div className="container home">
         <div className="left">
-          <h1>
-           I'm Web Developer
-          </h1>
+          <h1>I'm Web Developer</h1>
         </div>
-        {/* <div className="right">
+        <div className="right">
           <div className="img">
-            <img
-              src=""
-              alt=""
-            />
+            <img src="./images/study.boy.jpg" />
           </div>
-        </div> */}
+        </div>
       </div>
     </>
   );

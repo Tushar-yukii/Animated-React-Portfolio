@@ -1,27 +1,17 @@
 [
   {
-    "id":1,
-    "title": "HTML",
-    "imageSrc": "skills/html.png"
+    "title": "HTML"
   },
   {
-    "id":2,
-    "title": "CSS",
-    "imageSrc": "skills/css.png"
+    "title": "CSS"
   },
   {
-    "id":3,
-    "title": "JavaScript",
-    "imageSrc": "skills/javascript.png"
+    "title": "JavaScript"
   },
   {
-    "id":4,
-    "title": "React",
-    "imageSrc": "skills/react.png"
+    "title": "React"
   },
   {
-    "id":5,
-    "title": "Node",
-    "imageSrc": "skills/node.png"
+    "title": "Node"
   }
 ]

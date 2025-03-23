@@ -3,8 +3,8 @@ import React from 'react'
 import './App.css'
 import Navbar from './Compounts/Navbar'
 import Home from './Compounts/Home'
-// import Experience from './Compounts/Experience'
 import Skills from './Compounts/Skills'
+import Project from './Compounts/Project'
 function App() {
 
 
@@ -14,6 +14,7 @@ function App() {
      <div className="container">
       <Home />
       <Skills />
+      <Project />
      </div>
     </>
   )
