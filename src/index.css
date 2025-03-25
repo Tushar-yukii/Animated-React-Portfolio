@@ -65,3 +65,27 @@ a {
   border: 1px solid yellow;
   box-shadow: var(--box-shadow);
 }
+.contact-icon {
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-icon .items {
+  background-color: black;
+  margin: 15px;
+  height: 70px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  border: 2px solid yellow;
+}
+.contact-icon .items:hover {
+  background-color: var(--bg-color);
+  box-shadow: var(--box-shadow);
+}
+.contact-icon .items .icons {
+  font-size: 2rem;
+}

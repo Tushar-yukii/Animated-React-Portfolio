@@ -3,9 +3,9 @@ import skills from "./data/skills.json";
 const Skills = () => {
   return (
     <>
-      <div className="container skills">
+      <div className="container skills" id="skills">
         <h1>SKILLS</h1>
-        <div className="items">
+        <div className="items" data-aos="flip-left" data-aos-duration="1000">
           <img src="images/html.png" />
           <img src="images/css.png" />
           <img src="images/javascript.png" />
