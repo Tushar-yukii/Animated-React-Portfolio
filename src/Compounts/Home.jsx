@@ -24,14 +24,11 @@ const Home = () => {
   return (
     <>
       <div className="container home" id="home">
-        <div className="left"  data-aos="fade-up-right"
-      data-aos-duration="1000">
+        <div className="left" data-aos="fade-up-right" data-aos-duration="1000">
           <h1 ref={typedref}></h1>
         </div>
         <div className="right">
-          <div className="img"
-           data-aos="fade-up-left"
-           data-aos-duration="1000">
+          <div className="img " data-aos="fade-up-left" data-aos-duration="1000">
             <img src="./images/study.boy.jpg" />
           </div>
         </div>

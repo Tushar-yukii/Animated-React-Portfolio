@@ -18,10 +18,9 @@ const Project = () => {
                     width: "18rem",
                     border: "1px solid yellow",
                     boxShadow: "5px 5px 10px 10px rgba(101, 175, 10, 0.5)",
-                   
                   }}
-                   data-aos="flip-right"
-      data-aos-duration="1000"
+                  data-aos="flip-right"
+                  data-aos-duration="1000"
                 >
                   <div className="img justify-content-center align-content-center p-3">
                     <img

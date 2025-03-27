@@ -9,9 +9,11 @@ const Contant = () => {
     <>
       <div className="container contact" id="contact">
         <h1>Contact Here</h1>
-        <div className="contact-icon"
-         data-aos="zoom-in"
-         data-aos-duration="1000">
+        <div
+          className="contact-icon"
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+        >
           <a href="https://www.github.com" target="_blank" className="items">
             <FaGithub className="icons" />
           </a>
