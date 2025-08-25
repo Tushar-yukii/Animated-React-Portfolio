@@ -28,7 +28,11 @@ const Home = () => {
           <h1 ref={typedref}></h1>
         </div>
         <div className="right">
-          <div className="img " data-aos="fade-up-left" data-aos-duration="1000">
+          <div
+            className="img "
+            data-aos="fade-up-left"
+            data-aos-duration="1000"
+          >
             <img src="./images/study.boy.jpg" />
           </div>
         </div>

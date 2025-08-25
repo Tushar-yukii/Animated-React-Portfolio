@@ -55,7 +55,7 @@ a {
 .items img {
   display: flex;
   width: 100px;
-  /* width: calc(20.20%); */
+
   background-color: black;
   margin: 100px;
   padding: 20px;

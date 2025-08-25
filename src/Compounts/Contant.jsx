@@ -17,10 +17,14 @@ const Contant = () => {
           <a href="https://www.github.com" target="_blank" className="items">
             <FaGithub className="icons" />
           </a>
-          <a href="renex76tn@gamil.com" target="_blank" className="items">
+          <a href="ttikkiwal@gamil.com" target="_blank" className="items">
             <SiGmail className="icons" />
           </a>
-          <a href="" target="_blank" className="items">
+          <a
+            href="https://www.linkedin.com/in/tushar-tikkiwal-b32943359/"
+            target="_blank"
+            className="items"
+          >
             <FaLinkedinIn className="icons" />
           </a>
           <a href="" target="_blank" className="items">
