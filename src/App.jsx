@@ -1,3 +1,4 @@
+// npm install gsap @gsap/react three @react/fiber @react-three/drei @react-three/postprocessing 
 import React, { useEffect } from "react";
 
 import "./App.css";
