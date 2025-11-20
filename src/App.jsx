@@ -1,4 +1,4 @@
-// npm install gsap @gsap/react three @react/fiber @react-three/drei @react-three/postprocessing 
+// npm install gsap @gsap/react three @react/fiber @react-three/drei @react-three/postprocessing
 import React, { useEffect } from "react";
 
 import "./App.css";
@@ -9,6 +9,7 @@ import Project from "./Compounts/Project";
 import Contant from "./Compounts/Contant";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import Hero from "./sections/Hero";
 
 function App() {
   useEffect(() => {
@@ -17,13 +18,17 @@ function App() {
 
   return (
     <>
-      <Navbar />
+      <div>
+        <Hero />
+      </div>
+
+      {/* <Navbar />
       <div className="container">
         <Home />
         <Skills />
         <Project />
         <Contant />
-      </div>
+      </div> */}
     </>
   );
 }
