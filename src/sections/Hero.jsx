@@ -1,9 +1,6 @@
 import React from "react";
+import { words } from "../constants";
 
-const words = [
-  { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
-];
 
 const Hero = () => {
   return (
@@ -20,8 +17,8 @@ const Hero = () => {
                 shapping
                 <span className="slide">
                   <span className="wrapper">
-                    {words.map((word) => (
-                      <span
+                    {words.map((word) => ( 
+                      <span 
                         key={word.text}
                         className="flex items-center md:gap-3 gap-1 pb-2"
                       >
@@ -39,6 +36,7 @@ const Hero = () => {
               <h1>into Real project</h1>
               <h1>that Deliver Results</h1>
             </div>
+            <p className=""></p>
           </div>
         </header>
       </div>
