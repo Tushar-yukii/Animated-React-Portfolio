@@ -37,40 +37,33 @@ export function Room(props) {
   const { nodes, materials } = useGLTF("/models/optimized-room.glb");
   return (
     <group {...props} dispose={null}>
-      {/* <EffectComposer> */}
-        {/* <SelectiveBloom
-          selection={screensRef}
-          intensity={1.5} // Strength of the bloom
-          luminanceThreshold={0.2} // Minimum luminance needed
-          luminanceSmoothing={0.9} // Smooth transition
-          blendFunction={blendFunction.ADD} // How it blends
+      <EffectComposer>
+        <SelectiveBloom
+          intensity={2}
+          luminanceThreshold={0.2}
+          luminanceSmoothing={0.9}
+          
         />
-      </EffectComposer> */}
- {/* // ERROR  */}
+      </EffectComposer>
+      {/* // ERROR  */}
       <mesh
         geometry={nodes._________6_blinn1_0.geometry}
         material={curtainMaterial}
       />
       <mesh geometry={nodes.body1_blinn1_0.geometry} material={bodyMaterial} />
-      <mesh
-        geometry={nodes.cabin_blinn1_0.geometry}
-        material={materials.blinn1}
-      />
+      <mesh geometry={nodes.cabin_blinn1_0.geometry} material={tableMaterial} />
       <mesh
         geometry={nodes.chair_body_blinn1_0.geometry}
-        material={materials.blinn1}
+        material={radiatorMaterial}
       />
-      <mesh
-        geometry={nodes.comp_blinn1_0.geometry}
-        material={materials.blinn1}
-      />
+      <mesh geometry={nodes.comp_blinn1_0.geometry} material={compMaterial} />
       <mesh
         geometry={nodes.emis_lambert1_0.geometry}
-        material={materials.lambert1}
+        material={pillowMaterial}
       />
       <mesh
         geometry={nodes.handls_blinn1_0.geometry}
-        material={materials.blinn1}
+        material={chairMaterial}
       />
       <mesh
         geometry={nodes.keyboard_blinn1_0.geometry}
