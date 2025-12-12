@@ -2,6 +2,7 @@ import React from "react";
 import { words } from "../constants";
 import Button from "../Compounts/Button";
 import HeroExperience from "../Compounts/HeroModals/HeroExperience";
+import AnimatedCounter from "../Compounts/AnimatedCounter";
 
 const Hero = () => {
   return (
@@ -55,6 +56,7 @@ const Hero = () => {
           </div>
         </figure>
       </div>
+      <AnimatedCounter />
     </section>
   );
 };
