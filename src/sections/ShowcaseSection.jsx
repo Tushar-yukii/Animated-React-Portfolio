@@ -14,6 +14,7 @@ const ShowcaseSection = () => {
               </p>
             </div>
           </div>
+          
         </div>
       </div>
     </div>
