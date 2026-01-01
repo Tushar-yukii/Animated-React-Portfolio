@@ -2,14 +2,15 @@
 import React, { useEffect } from "react";
 
 import "./App.css";
-import Navbar from "./Compounts/Navbar";
-import Home from "./Compounts/Home";
-import Skills from "./Compounts/Skills";
-import Project from "./Compounts/Project";
-import Contant from "./Compounts/Contant";
+// import Navbar from "./Compounts/Navbar";
+// import Home from "./Compounts/Home";
+// import Skills from "./Compounts/Skills";
+// import Project from "./Compounts/Project";
+// import Contant from "./Compounts/Contant";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Hero from "./sections/Hero";
+import ShowcaseSection from "./sections/ShowcaseSection";
 
 function App() {
   useEffect(() => {
@@ -20,6 +21,7 @@ function App() {
     <>
       <div>
         <Hero />
+        <ShowcaseSection />
       </div>
 
       {/* <Navbar />
