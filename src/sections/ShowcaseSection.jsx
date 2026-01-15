@@ -73,7 +73,7 @@ const ShowcaseSection = () => {
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img src="/images/project2.2.png" alt="NewsApp" />
               </div>
-              <h2>NewsApp Platform</h2>
+              <h2>NewsApp Website</h2>
             </div>
 
             <div className="project" ref={project3Ref}>
@@ -81,7 +81,7 @@ const ShowcaseSection = () => {
               <div className="image-wrapper bg-[#FFE7EB]">
                 <img src="/images/project3.png" alt="YC Directory App" />
               </div>
-              <h2>YC Directory - A Startup Showcase App</h2>
+              <h2>Startup Showcase App</h2>
             </div>
           </div>
         </div>
