@@ -11,6 +11,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import Hero from "./sections/Hero";
 import ShowcaseSection from "./sections/ShowcaseSection";
+import Navbar from "./Compounts/Navbar";
 
 function App() {
   useEffect(() => {
@@ -19,19 +20,18 @@ function App() {
 
   return (
     <>
-      <div>
-        <Hero />
-        <ShowcaseSection />
-      </div>
-
-      {/* <Navbar />
-      <div className="container">
-        <Home />
-        <Skills />
-        <Project />
-        <Contant />
-      </div> */}
+      <Navbar />
+      <Hero />
+      <ShowcaseSection />
     </>
+
+    // {/* <Navbar />
+    // <div className="container">
+    //   <Home />
+    //   <Skills />
+    //   <Project />
+    //   <Contant />
+    // </div> */}
   );
 }
 
