@@ -1,17 +1,26 @@
-import React from "react";
+import { navLinks } from "../constants";
 
 const Navbar = () => {
   return (
     <header className="navbar">
       <div className="inner">
-        <a className="logo" href="#hero">
-          {/* error */}
-          tushar tikkiwal
+        <a href="#hero" className="logo">
+          Tushar Tikkiwal
         </a>
-        <nav className="desktop">{/* error */}</nav>
-        <a href="#contact" className="contact-btn group">
+        <nav className="desktop">
+          <ul>
+            {navLinks.map(({ link, name }) => (
+              <li key={name} className="group">
+                <a href={link}>
+                  <span>{name}</span>
+                  <span className="underline" />
+                </a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+        <a href="#contact" className="contact-btn">
           <div className="inner">
-            {/* error */}
             <span>Contact me</span>
           </div>
         </a>
@@ -21,6 +30,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-
-
