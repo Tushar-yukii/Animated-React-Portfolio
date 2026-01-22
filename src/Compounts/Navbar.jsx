@@ -1,8 +1,22 @@
+import { useEffect, useState } from "react";
 import { navLinks } from "../constants";
 
 const Navbar = () => {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const isScrolled = window.scrollY > 10;
+      setScrolled(isScrolled);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
-    <header className="navbar">
+    <header className={`navbar ${scrolled ? "scrolled" : "not-scrolled"}`}>
+      {/* error */}
       <div className="inner">
         <a href="#hero" className="logo">
           Tushar Tikkiwal
@@ -20,6 +34,7 @@ const Navbar = () => {
           </ul>
         </nav>
         <a href="#contact" className="contact-btn">
+         
           <div className="inner">
             <span>Contact me</span>
           </div>
