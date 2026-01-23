@@ -12,6 +12,7 @@ import "aos/dist/aos.css";
 import Hero from "./sections/Hero";
 import ShowcaseSection from "./sections/ShowcaseSection";
 import Navbar from "./Compounts/Navbar";
+import FeatureCards from "./sections/FeatureCards";
 
 function App() {
   useEffect(() => {
@@ -23,6 +24,7 @@ function App() {
       <Navbar />
       <Hero />
       <ShowcaseSection />
+      <FeatureCards />
     </>
 
     // {/* <Navbar />

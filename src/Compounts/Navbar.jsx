@@ -34,7 +34,7 @@ const Navbar = () => {
           </ul>
         </nav>
         <a href="#contact" className="contact-btn">
-         
+          {/* error */}
           <div className="inner">
             <span>Contact me</span>
           </div>
