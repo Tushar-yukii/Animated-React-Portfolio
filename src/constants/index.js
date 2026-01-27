@@ -42,3 +42,30 @@ export const abilities = [
     desc: "Keeping you updated at every step to ensure transparency and clarity.",
   },
 ];
+
+export const techStackIcons = [
+  {
+    name: "React Developer",
+    modelPath: "/models/react_logo-transformed.glb",
+    scale: 1,
+    rotation: [0, 0, 0],
+  },
+  {
+    name: "Python Developer",
+    modelPath: "/models/python-transformed.glb",
+    scale: 0.8,
+    rotation: [0, 0, 0],
+  },
+  {
+    name: "Javascript Developer",
+    modelPath: "/models/javascript-transformed.glb",
+    scale: 5,
+    rotation: [0, -Math.PI / 2, 0],
+  },
+  {
+    name: "React-Native Developer",
+    modelPath: "/models/native-transformed.glb",
+    scale: 5,
+    rotation: [0, -Math.PI / 2, 0],
+  },
+];
