@@ -1,4 +1,3 @@
-import React from "react";
 // destructure text , classname, id
 const Button = ({ text, className, id }) => {
   return (
@@ -31,3 +30,4 @@ const Button = ({ text, className, id }) => {
 };
 
 export default Button;
+

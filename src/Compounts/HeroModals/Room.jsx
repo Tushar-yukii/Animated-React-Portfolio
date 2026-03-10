@@ -6,7 +6,7 @@ Command: npx gltfjsx@6.5.3 optimized-room.glb
 import { useGLTF, useTexture } from "@react-three/drei";
 import { EffectComposer, SelectiveBloom } from "@react-three/postprocessing";
 import * as THREE from "three";
-import { ConstNode } from "three/webgpu";
+// import { ConstNode } from "three/webgpu";
 
 export function Room(props) {
   const matcapTexture = useTexture("/images/textures/mat1.png");

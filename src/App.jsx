@@ -13,7 +13,7 @@ import Hero from "./sections/Hero";
 import ShowcaseSection from "./sections/ShowcaseSection";
 import Navbar from "./Compounts/Navbar";
 import FeatureCards from "./sections/FeatureCards";
-import TechStack from "./sections/TechStack";
+// import TechStack from "./sections/TechStack";
 
 function App() {
   useEffect(() => {
@@ -26,7 +26,7 @@ function App() {
       <Hero />
       <ShowcaseSection />
       <FeatureCards />
-      <TechStack />
+      {/* <TechStack /> */}
     </>
 
     // {/* <Navbar />

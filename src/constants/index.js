@@ -43,29 +43,54 @@ export const abilities = [
   },
 ];
 
-export const techStackIcons = [
-  {
-    name: "React Developer",
-    modelPath: "/models/react_logo-transformed.glb",
-    scale: 1,
-    rotation: [0, 0, 0],
-  },
-  {
-    name: "Python Developer",
-    modelPath: "/models/python-transformed.glb",
-    scale: 0.8,
-    rotation: [0, 0, 0],
-  },
-  {
-    name: "Javascript Developer",
-    modelPath: "/models/javascript-transformed.glb",
-    scale: 5,
-    rotation: [0, -Math.PI / 2, 0],
-  },
-  {
-    name: "React-Native Developer",
-    modelPath: "/models/native-transformed.glb",
-    scale: 5,
-    rotation: [0, -Math.PI / 2, 0],
-  },
-];
+
+// export const techStackImgs = [
+//   {
+//     name: "React Developer",
+//     imgPath: "/images/logos/react.png",
+//   },
+//   {
+//     name: "Python Developer",
+//     imgPath: "/images/logos/python.svg",
+//   },
+//   {
+//     name: "Backend Developer",
+//     imgPath: "/images/logos/node.png",
+//   },
+//   {
+//     name: "Interactive Developer",
+//     imgPath: "/images/logos/three.png",
+//   },
+//   {
+//     name: "Project Manager",
+//     imgPath: "/images/logos/git.svg",
+//   },
+// ];
+
+
+// export const techStackIcons = [
+//   {
+//     name: "React Developer",
+//     modelPath: "/models/react_logo-transformed.glb",
+//     scale: 1,
+//     rotation: [0, 0, 0],
+//   },
+//   {
+//     name: "Python Developer",
+//     modelPath: "/models/python-transformed.glb",
+//     scale: 0.8,
+//     rotation: [0, 0, 0],
+//   },
+//   {
+//     name: "Javascript Developer",
+//     modelPath: "/models/javascript-transformed.glb",
+//     scale: 5,
+//     rotation: [0, -Math.PI / 2, 0],
+//   },
+//   {
+//     name: "React-Native Developer",
+//     modelPath: "/models/native-transformed.glb",
+//     scale: 5,
+//     rotation: [0, -Math.PI / 2, 0],
+//   },
+// ];
