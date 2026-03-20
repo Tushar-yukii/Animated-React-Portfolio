@@ -114,7 +114,7 @@ section {
     }
 
     .inner {
-      @apply flex items-start justify-between;
+      @apply flex;
     }
    /* error */
   .logo {

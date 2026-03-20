@@ -15,6 +15,8 @@ const Navbar = () => {
   }, []);
 
   return (
+    <>
+    <div className="left">Personal Portfolio</div>
     <header className={`navbar ${scrolled ? "scrolled" : "not-scrolled"}`}>
       {/* error */}
       <div className="inner">
@@ -41,6 +43,7 @@ const Navbar = () => {
         </a>
       </div>
     </header>
+    </>
   );
 };
 
